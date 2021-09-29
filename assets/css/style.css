@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.customimg{
+    background-image: url(bg-image.jpg);
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    height: 750px;
+    
+}
+
+.calculator {
+    width: 320px;
+    height: 590px;
+    border-radius: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 2px 0px;
+}
+
+.calheaderleft{
+    margin-bottom: 0;
+    color: white;
+    font-size: 16px;
+    text-align:left;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-family: 'Cookie', cursive;
+
+}
+.calheaderright{
+    margin-bottom: 0;
+    color: white;
+    font-size: 23px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.toperpart{
+    border: rgb(0, 0, 0) 10px solid ;
+    border-radius: 5%;
+    background-color: rgb(40, 44, 44);
+    height: 120px;
+}
+
+.history{
+    height: 40px;
+    padding: 20px;
+    text-align: right;
+}
+
+.result{
+    height: 40px;
+    padding-right: 10px;
+}
+.result input {
+    letter-spacing: 2px;
+    text-align: right;
+    font-size: 35px;
+    border: 0px;
+    background-color:  rgb(40, 44, 44);
+    width: 300px;
+    font-size: 40px;
+    padding: 20px 5px ;
+    font-family:Arial;
+    color: yellow ;  
+}
+.oparetor{
+    border-radius: 50%;
+    margin: 10px 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-size: 25px;
+    border-color: rgb(204, 202, 198);
+}
+.brdrcolor{
+    border-color: white;
+}
+.number{
+    background-color: skyblue;
+    border-radius: 50%;
+    margin: 10px 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+}
