@@ -8,12 +8,12 @@ body{
     background-image: url(bg-image.jpg);
     background-repeat: no-repeat;
     height: 750px;
-    
+    padding-top: 5%;
 }
 
 .calculator {
     width: 320px;
-    height: 590px;
+    height: 580px;
     border-radius: 20px;
     margin: auto;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ body{
     font-size: 16px;
     text-align:left;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 0;
     font-family: 'Cookie', cursive;
 }
@@ -36,7 +36,7 @@ body{
     color: white;
     font-size: 23px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -71,7 +71,7 @@ body{
 }
 .oparetor{
     border-radius: 50%;
-    margin: 10px 5px;
+    margin: 8px 5px;
     width: 60px;
     height: 60px;
     font-size: 20px;
@@ -84,7 +84,7 @@ body{
 .number{
     background-color: skyblue;
     border-radius: 50%;
-    margin: 10px 5px;
+    margin: 8px 5px;
     width: 60px;
     height: 60px;
     font-size: 22px;
